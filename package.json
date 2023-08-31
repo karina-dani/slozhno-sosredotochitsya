@@ -4,7 +4,7 @@
   "description": "Проект \"Сложно сосредоточиться\"\r https://github.com/karina-dani/slozhno-sosredotochitsya",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Привет!'",
     "check": "prettier --check ./**/*.{html,css,js}",
     "format": "prettier --write ./**/*.{html,css,js}",
     "lint": "stylelint **/*.css",
