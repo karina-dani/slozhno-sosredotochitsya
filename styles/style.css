@@ -374,17 +374,29 @@
     margin-block-end: 60px;
   }
 
-  .images-subtitle { grid-area: subtitle; }
+  .images-subtitle { 
+    grid-area: subtitle; 
+  }
 
-  .image-sunset { grid-area: sunset;  }
+  .image-sunset { 
+    grid-area: sunset;  
+  }
 
-  .image-ice-cream { grid-area: ice-cream;  }
+  .image-ice-cream { 
+    grid-area: ice-cream;  
+  }
 
-  .image-tapes { grid-area: tapes;  }
+  .image-tapes { 
+    grid-area: tapes;  
+  }
 
-  .image-books { grid-area: books;  }
-  
-  .image-street { grid-area: street;  }
+  .image-books { 
+    grid-area: books;  
+  }
+
+  .image-street { 
+    grid-area: street;  
+  }
 }
 
 /* -------------- стили для подвала-------------- */
