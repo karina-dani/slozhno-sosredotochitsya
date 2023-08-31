@@ -21,6 +21,7 @@
 }
 
 /* -------------- стили для шапки -------------- */
+
 .decorated-zone {
   padding: 10px;
   inline-size: 100%;
@@ -32,7 +33,7 @@
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   row-gap: clamp(3.4375rem, -2.8244rem + 26.7176vw, 10rem);
-  margin-block-end: 40px;
+  margin-block-end: 38px;
 }
 
 .decorated-zone::before {
@@ -62,7 +63,7 @@
 .header__theme-decoration {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 18px;
   color: var(--accent-color, #FF0070);
   font-size: 18px;
   line-height: 138.889%;
@@ -97,7 +98,7 @@
 
 .header__theme-menu-button {
   border: none;
-  padding: 2.5px 13px;
+  padding: 1.5px 13px;
   color: var(--button-color, #FF0070);
   font-family: inherit;
   font-weight: 400;
@@ -131,12 +132,12 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-style: normal;
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
+  text-shadow: 4px 4px 0 var(--title-shadow, #FF0070);
 }
 
 .header__theme-text {
   justify-self: end;
-  margin-block-end: 56px;
+  margin-block-end: 58px;
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -155,7 +156,7 @@
   }
 
   .header {
-    row-gap: 160px;
+    row-gap: 163px;
     margin-block-end: 60px;
   }
 
@@ -347,7 +348,7 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 10px;
-  margin-block-end: 40px;
+  margin-block-end: 41px;
 }
 
 
@@ -374,10 +375,15 @@
   }
 
   .images-subtitle { grid-area: subtitle; }
+
   .image-sunset { grid-area: sunset;  }
+
   .image-ice-cream { grid-area: ice-cream;  }
+
   .image-tapes { grid-area: tapes;  }
+
   .image-books { grid-area: books;  }
+  
   .image-street { grid-area: street;  }
 }
 

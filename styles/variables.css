@@ -10,6 +10,7 @@
 --main-font: 'IBM Plex mono';
 --bg-image: url(../images/cover-image-dark.png);
 --title-color: #DB00FF;
+--title-shadow: #FF0070;
 --section-title-color: #FF0070;
 --button-color: #FF0070;
 --button-hover-outline-color: rgba(255, 0, 112, 0.40);
