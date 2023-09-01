@@ -76,7 +76,7 @@
   margin-inline-start: 10px;
   border-radius: 50%;
   background-color: var(--accent-color, #FF0070);
-  filter: drop-shadow(0px 0px 4px var(--accent-color, #FF0070));
+  filter: drop-shadow(0 0 4px var(--accent-color, #FF0070));
   inline-size: 10px;
   block-size: 10px;
 }
@@ -193,6 +193,7 @@
 }
 
 @media (width >= 1024px) {
+
   .decorated-zone {
     min-block-size: 768px;
   }
@@ -248,7 +249,7 @@
 
 .accent-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0px var(--accent-link-shadow, #FF0070);
+  text-shadow: 2px 2px 0 var(--accent-link-shadow, #FF0070);
   
 }
 
@@ -421,6 +422,7 @@
 }
 
 @media (width >= 768px) {
+
   .footer {
     padding-inline-start: 20px;
   }
