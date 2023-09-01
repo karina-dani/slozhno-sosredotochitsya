@@ -376,39 +376,27 @@
   }
 
   .images-subtitle { 
-
-    grid-area: subtitle; 
-    
+    grid-area: subtitle;  
   }
 
   .image-sunset { 
-
     grid-area: sunset;  
-
   }
 
   .image-ice-cream { 
-
     grid-area: ice-cream;  
-
   }
 
   .image-tapes { 
-
     grid-area: tapes;  
-
   }
 
   .image-books { 
-
     grid-area: books;  
-
   }
 
   .image-street { 
-
     grid-area: street;  
-  
   }
 }
 
