@@ -23,7 +23,6 @@
   --accent-link-shadow: #FF0070;
   --hover-accent-link-color: #353430;
   --header-decoration-element: none;
-  
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,5 +42,5 @@
     --accent-link-shadow: #FF0070;
     --header-decoration-element: none;
     --hover-accent-link-color: #353430; 
-    }
   }
+}
